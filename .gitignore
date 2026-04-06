@@ -1,0 +1,83 @@
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+client/.env
+client/.env.local
+client/.env.production
+server/.env
+
+# ========================
+# Node Modules
+# ========================
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# ========================
+# Build Output
+# ========================
+dist/
+build/
+*/dist/
+*/build/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# Uploads / Media
+# ========================
+uploads/
+public/uploads/
+
+# ========================
+# Cache
+# ========================
+.cache/
+.parcel-cache/
+.vite/
+*.tsbuildinfo
+
+# ========================
+# Package Lock (optional)
+# ========================
+# Uncomment if you don't want to push lock files
+# package-lock.json
+# yarn.lock
+#Rewrite ProductDetail.jsx adding image zoom modal, share button, and Q&A section.
