@@ -1922,14 +1922,14 @@ async function seed() {
       {
         name: "Gautam Admin",
         email: "gautam2028@gmail.com",
-        password: "gautam@2028",
+        password: "Admin@2028",
         role: "admin",
         phone: "9999999999",
       },
       {
         name: "Test User",
         email: "user@flipkart.com",
-        password: "user123",
+        password: "User@1234",
         role: "user",
         phone: "8888888888",
       },
@@ -1938,8 +1938,8 @@ async function seed() {
 
     console.log("\n🎉 Database seeded successfully!\n");
     console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-    console.log("👤 Admin  → gautam2028@gmail.com / gautam@2028");
-    console.log("👤 User   → user@flipkart.com    / user123");
+    console.log("👤 Admin  → gautam2028@gmail.com / Admin@2028");
+    console.log("👤 User   → user@flipkart.com    / User@1234");
     console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
     process.exit(0);
   } catch (err) {
