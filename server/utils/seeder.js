@@ -1895,6 +1895,8 @@ const products = [
 ];
 
 
+export { categories, products };
+
 async function seed() {
   try {
     await mongoose.connect(process.env.MONGO_URI);
